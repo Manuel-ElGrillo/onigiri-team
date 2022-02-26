@@ -1,0 +1,77 @@
+.senpai-sample-icons-price {
+    position: relative;
+}
+
+.senpai-sample-title h3{
+    font-size: 4rem;
+    color: var(--orange);
+    font-weight: 900;
+    margin-bottom: -2rem;
+}
+
+.senpai-sample-title p {
+    font-size: 3.5rem;
+    color: var(--gray);
+    font-weight: 300;
+    margin-bottom: -1rem;
+}
+
+.senpai-sample-title span {
+    font-size: 4.5rem;
+    color: var(--green2);
+    font-weight: bolder;
+    margin: 0;
+}
+
+.senpai-sample-onigiri-icons img{
+    padding: 1rem;
+    width: 10rem;
+    height: 10rem;
+}
+
+.onigiri-1 {
+    position: absolute;
+    bottom: 0rem;
+    left: 9rem;
+}
+
+.onigiri-2 {
+    position: absolute;
+    bottom: 0rem;
+    left: 16rem;
+}
+
+.onigiri-3 {
+    position: absolute;
+    bottom: 5rem;
+    left: 12.4rem;
+}
+
+.senpai-sample-description {
+    position: relative;
+}
+.senpai-sample-description p {
+    background-color: var(--orange);
+    color: white;
+    font-size: 2.2rem;
+    padding: 1.3rem;
+    border-radius: 3rem;
+    display: inline-block;
+    width: 25rem;
+}
+
+.senpai-miso-icon {
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 2rem;
+}
+
+.senpai-add-icon {
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    bottom: 4rem;
+    right: 10rem;
+}

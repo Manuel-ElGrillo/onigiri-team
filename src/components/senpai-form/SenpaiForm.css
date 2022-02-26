@@ -1,0 +1,49 @@
+.senpai-form {
+    margin-top: 11rem;
+}
+
+.senpai-form label {
+    color: white;
+    font-size: 2rem;
+    padding: .5rem;
+    border-radius: 1rem;
+    margin: 1.5rem auto;
+    display: block;
+    text-align: center;
+    width: 90%;
+}
+
+.senpai-form select{ 
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    padding: .8rem;
+}
+
+.senpai-form input{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.senpai-form h3 {
+    color: var(--green2);
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    margin: 1.5rem;
+}
+
+.senpai-form button {
+    display: block;
+    margin: 0 auto;
+    padding: 1rem 6rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+    background-color: var(--green2);
+    border: none;
+    color: var(--green1);
+    text-transform: uppercase;
+}

@@ -1,0 +1,11 @@
+.footer {
+    background-color: var(--orange);
+    font-size: 1.7rem;
+    height: 5.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.footer p {
+    padding: 1.3rem;
+}

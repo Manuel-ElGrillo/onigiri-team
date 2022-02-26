@@ -1,0 +1,66 @@
+.flavors-title {
+    margin-top: 6rem;
+}
+
+.flavors-title h2 {
+    font-size: 3rem;
+    color: white;
+    padding-top: 1rem;
+}
+
+.flavors-title p {
+    font-size: 1.8rem;
+}
+
+.list-onigiri img{
+    width: 6rem;
+    height: 6rem;
+}
+
+.onigiri-list-flavors h4{
+    font-size: 2.8rem;
+    color: var(--orange);
+    background-color: var(--green1);
+    padding: 0.5rem 3rem;
+    border-radius: 1.2rem;
+    display: inline-block;
+}
+
+.onigiri-list-flavors p {
+    color: white;
+    font-size: 1.6rem;
+}
+
+.rice-mix-title {
+    color: white;
+    background-color: var(--orange);
+    padding: 1rem 2rem;
+    border-radius: .3rem;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+.list-rice-mix img {
+    width: 6rem;
+    height: 6rem;
+}
+
+.rice-mix-flavors h4{
+    font-size: 2.8rem;
+    color: var(--pink1);
+    background-color: var(--green1);
+    padding: 0.5rem 3rem;
+    border-radius: 1.2rem;
+    display: inline-block;
+}
+
+.rice-mix-flavors h4 span {
+    color: white;
+    font-size: 3rem;
+    margin-left: 2rem;
+}
+
+.rice-mix-flavors p{
+    color: white;
+    font-size: 1.6rem;
+}

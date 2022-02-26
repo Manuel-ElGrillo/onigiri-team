@@ -1,0 +1,9 @@
+.error {
+    background-color: var(--pink1);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    border-radius: .4rem;
+    margin: 1rem 2rem;
+    font-size: 1.8rem;
+}

@@ -1,0 +1,77 @@
+{
+    "onigiriList": [
+        {
+            "flavor": "Yoriichi",
+            "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+            "id": 0
+        },
+        {
+            "flavor": "Shinobu",
+            "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+            "id": 1
+        },
+        {
+            "flavor": "Tengen",
+            "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+            "id": 2
+        },
+        {
+            "flavor": "Mitsuri",
+            "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+            "id": 3
+        },
+        {
+            "flavor": "Muichiro",
+            "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+            "id": 4
+        },
+        {
+            "flavor": "Kyojuru",
+            "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+            "id": 5
+        },
+        {
+            "flavor": "Giyu",
+            "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+            "id": 6
+        },
+        {
+            "flavor": "Obanai",
+            "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+            "id": 7
+        },
+        {
+            "flavor": "Sanemi",
+            "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+            "id": 8
+        },
+        {
+            "flavor": "Gyomei",
+            "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+            "id": 9
+        }
+    ],
+
+    "riceMix": [
+        {
+            "flavor": "Tanjiro",
+            "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+            "id": 10
+        },
+        {
+            "flavor": "Inosuke",
+            "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+            "id": 11
+        },
+        {
+            "flavor": "Nezuko",
+            "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+            "id": 12
+        },
+        {
+            "flavor": "Zenitzu",
+            "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+            "id": 13
+        }
+    ]
+}

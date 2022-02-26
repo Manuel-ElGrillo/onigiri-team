@@ -1,0 +1,73 @@
+.kohai-sample-icons-price {
+    position: relative;
+}
+
+.kohai-sample-title h3{
+    font-size: 4rem;
+    color: var(--orange);
+    font-weight: 900;
+    margin-bottom: -2rem;
+}
+
+.kohai-sample-title p {
+    font-size: 3.5rem;
+    color: var(--gray);
+    font-weight: 300;
+    margin-bottom: -1rem;
+}
+
+.kohai-sample-title span {
+    font-size: 4.5rem;
+    color: var(--green2);
+    font-weight: bolder;
+    margin: 0;
+}
+
+.kohai-sample-onigiri-icons img{
+    padding: 1rem;
+    width: 10rem;
+    height: 10rem;
+}
+
+.onigiri-icon-1 {
+    position: absolute;
+    bottom: 4rem;
+    left: 20rem;
+}
+
+.onigiri-icon-2 {
+    position: absolute;
+    bottom: 4rem;
+    left: 14rem;
+}
+
+.kohai-sample-description {
+    position: relative;
+}
+
+.kohai-sample-description p{
+    color: white;
+    font-size: 2.2rem;
+    padding: 1.3rem;
+    background-color: var(--orange);
+    border-radius: 3rem;
+    margin-left: 11rem;
+    position: absolute;
+    bottom: -3rem;
+}
+
+.miso-icon {
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    bottom: -1.5rem;
+    left: 2rem;
+}
+
+.add-icon {
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    bottom: 2.3rem;
+    left: 9.5rem;
+}

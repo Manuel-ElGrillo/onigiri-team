@@ -1,0 +1,20 @@
+.header {
+    background-color: var(--gray);
+    position: relative;
+}
+
+.header h1 {
+    color: var(--green1);
+    font-size: 4.7rem;
+    letter-spacing: .2rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.logo {
+    position: absolute;
+    height: 15rem;
+    width: 15rem;
+    top: 1rem;
+    left: 1rem;
+}
