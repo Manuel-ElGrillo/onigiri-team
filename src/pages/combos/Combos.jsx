@@ -4,6 +4,7 @@ import Footer from '../../components/footer/Footer';
 import KohaiSample from "../../components/kohai-sample/KohaiSample";
 import SenpaiSample from "../../components/senpai-sample/SenpaiSample";
 import ExplainSample from "../../components/explain-sample/ExplainSample";
+import "../combos/Combos.css";
 
 const Combos = ({title, setTitle}) => {
 
@@ -17,9 +18,13 @@ const Combos = ({title, setTitle}) => {
     
       <Header title={title}/>
 
-      <KohaiSample />
+      <div className='d-flex container main-container'>
 
-      <SenpaiSample />
+        <KohaiSample />
+
+        <SenpaiSample />
+
+      </div>     
 
       <ExplainSample />
 

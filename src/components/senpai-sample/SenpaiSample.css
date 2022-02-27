@@ -1,77 +1,217 @@
-.senpai-sample-icons-price {
-    position: relative;
+.senpai-onigiri-icons img{
+    width: 12rem;
+    height: 12rem;
+    margin: 0 .5rem;
 }
 
-.senpai-sample-title h3{
-    font-size: 4rem;
+.senpai-sample-price h3 {
     color: var(--orange);
+    font-size: 5rem;
     font-weight: 900;
-    margin-bottom: -2rem;
-}
-
-.senpai-sample-title p {
-    font-size: 3.5rem;
-    color: var(--gray);
-    font-weight: 300;
-    margin-bottom: -1rem;
-}
-
-.senpai-sample-title span {
-    font-size: 4.5rem;
-    color: var(--green2);
-    font-weight: bolder;
     margin: 0;
 }
 
-.senpai-sample-onigiri-icons img{
-    padding: 1rem;
+.senpai-sample-price p {
+    color: var(--gray);
+    font-size: 4.5rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.senpai-sample-price span {
+    color: var(--green2);
+    font-size: 5.2rem;
+    font-weight: bold;
+}
+
+.senpai-sample-description-container {
+    position: relative;
+}
+
+.senpai-add-btn img{
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    top: 1rem;
+    left: 9rem;
+}
+
+.senpai-sample-description img {
     width: 10rem;
     height: 10rem;
 }
 
-.onigiri-1 {
-    position: absolute;
-    bottom: 0rem;
-    left: 9rem;
-}
-
-.onigiri-2 {
-    position: absolute;
-    bottom: 0rem;
-    left: 16rem;
-}
-
-.onigiri-3 {
-    position: absolute;
-    bottom: 5rem;
-    left: 12.4rem;
-}
-
-.senpai-sample-description {
-    position: relative;
-}
-.senpai-sample-description p {
+.senpai-sample-description .senpai-link {
     background-color: var(--orange);
     color: white;
-    font-size: 2.2rem;
-    padding: 1.3rem;
-    border-radius: 3rem;
-    display: inline-block;
-    width: 25rem;
+    text-decoration: none;
+    font-size: 2.3rem;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
 }
 
-.senpai-miso-icon {
-    width: 8rem;
-    height: 8rem;
-    position: absolute;
-    bottom: 1rem;
-    right: 2rem;
+
+
+@media (max-width: 1024px) {
+    .senpai-onigiri-icons {
+        position: relative;
+    }
+
+    .senpai-onigiri-icon1 {
+        position: absolute;
+        left: 0rem;
+        top: 5rem;
+    }
+
+    .senpai-onigiri-icon2 {
+        position: absolute;
+        left: 7rem;
+        top: 5rem;
+    }
+
+    .senpai-onigiri-icon3 {
+        position: absolute;
+        left: 14rem;
+        top: 5rem;
+    }
+
+    .senpai-sample-price {
+        position: relative;
+    }
+
+    .senpai-sample-price h3 {
+        position: absolute;
+        left: 25rem;
+    }
+
+    .senpai-sample-price p {
+        position: absolute;
+        top: 5rem;
+        left: 28rem;
+    }
+
+    .senpai-sample-price span {
+        position: absolute;
+        top: 10rem;
+        left: 33rem;
+    }
+
+    .senpai-sample-description-container {
+        margin-top: 18rem;
+    }
 }
 
-.senpai-add-icon {
-    width: 5rem;
-    height: 5rem;
-    position: absolute;
-    bottom: 4rem;
-    right: 10rem;
+
+@media (max-width: 768px) {
+    .senpai-container {
+        margin-top: 8rem;
+    }
+
+    .senpai-sample-price h3 {
+        position: absolute;
+        left: 45rem;
+    }
+
+    .senpai-sample-price p {
+        position: absolute;
+        top: 5rem;
+        left: 48rem;
+    }
+
+    .senpai-sample-price span {
+        position: absolute;
+        top: 10rem;
+        left: 53rem;
+    }
+
+    .senpai-onigiri-icon1 {
+        position: absolute;
+        left: 20rem;
+        top: 5rem;
+    }
+
+    .senpai-onigiri-icon2 {
+        position: absolute;
+        left: 27rem;
+        top: 5rem;
+    }
+
+    .senpai-onigiri-icon3 {
+        position: absolute;
+        left: 34rem;
+        top: 5rem;
+    }
+
+    .senpai-sample-description .senpai-link{
+        width: 28rem;
+        position: absolute;
+        top: 4rem;
+        left: 35rem;
+    }
+
+    .senpai-sample-description img {
+        position: absolute;
+        left: 22rem;
+        bottom: -10rem;
+    }
+
+    .senpai-add-btn img{
+        top: 1rem;
+        left: 31rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .senpai-container {
+        margin-top: 17rem;
+    }
+
+    .senpai-onigiri-icon1 {
+        position: absolute;
+        left: -1rem;
+        top: 5rem;
+    }
+
+    .senpai-onigiri-icon2 {
+        position: absolute;
+        left: 8rem;
+        top: 5rem;
+    }
+
+    .senpai-onigiri-icon3 {
+        position: absolute;
+        left: 4rem;
+        top: -1rem;
+    }
+
+    .senpai-sample-price h3 {
+        left: 17rem;
+    }
+
+    .senpai-sample-price p {
+        top: 5rem;
+        left: 20rem;
+    }
+
+    .senpai-sample-price span {
+        top: 10rem;
+        left: 25rem;
+    }
+
+    .senpai-sample-description .senpai-link{
+        top: 4rem;
+        left: 9rem;
+        width: 26rem;
+        padding: 1rem;
+    }
+
+    .senpai-sample-description img {
+        left: -4rem;
+        bottom: -10rem;
+    }
+
+    .senpai-add-btn img{
+        top: 1rem;
+        left: 5rem;
+    }
 }

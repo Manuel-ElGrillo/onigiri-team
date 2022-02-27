@@ -1,73 +1,149 @@
-.kohai-sample-icons-price {
-    position: relative;
+.kohai-onigiri-icons img{
+    width: 12rem;
+    height: 12rem;
+    margin: 0 .5rem;
 }
 
-.kohai-sample-title h3{
-    font-size: 4rem;
+.kohai-sample-price h3 {
     color: var(--orange);
+    font-size: 5rem;
     font-weight: 900;
-    margin-bottom: -2rem;
-}
-
-.kohai-sample-title p {
-    font-size: 3.5rem;
-    color: var(--gray);
-    font-weight: 300;
-    margin-bottom: -1rem;
-}
-
-.kohai-sample-title span {
-    font-size: 4.5rem;
-    color: var(--green2);
-    font-weight: bolder;
     margin: 0;
 }
 
-.kohai-sample-onigiri-icons img{
-    padding: 1rem;
+.kohai-sample-price p {
+    color: var(--gray);
+    font-size: 4.5rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.kohai-sample-price span {
+    color: var(--green2);
+    font-size: 5.2rem;
+    font-weight: bold;
+}
+
+.kohai-sample-description-container {
+    position: relative;
+}
+
+.kohai-add-btn img{
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    top: 1rem;
+    left: 9rem;
+}
+
+.kohai-sample-description img {
     width: 10rem;
     height: 10rem;
 }
 
-.onigiri-icon-1 {
-    position: absolute;
-    bottom: 4rem;
-    left: 20rem;
-}
-
-.onigiri-icon-2 {
-    position: absolute;
-    bottom: 4rem;
-    left: 14rem;
-}
-
-.kohai-sample-description {
-    position: relative;
-}
-
-.kohai-sample-description p{
-    color: white;
-    font-size: 2.2rem;
-    padding: 1.3rem;
+.kohai-sample-description .kohai-link {
     background-color: var(--orange);
-    border-radius: 3rem;
-    margin-left: 11rem;
-    position: absolute;
-    bottom: -3rem;
+    color: white;
+    text-decoration: none;
+    font-size: 2.3rem;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
 }
 
-.miso-icon {
-    width: 8rem;
-    height: 8rem;
-    position: absolute;
-    bottom: -1.5rem;
-    left: 2rem;
+
+
+@media (max-width: 1024px) {
+    .kohai-onigiri-icons {
+        position: relative;
+    }
+
+    .kohai-onigiri-icon1 {
+        position: absolute;
+        left: 0rem;
+        top: 5rem;
+    }
+
+    .kohai-onigiri-icon2 {
+        position: absolute;
+        left: 7rem;
+        top: 5rem;
+    }
+
+    .kohai-sample-price {
+        position: relative;
+    }
+
+    .kohai-sample-price h3 {
+        position: absolute;
+        left: 20rem;
+    }
+
+    .kohai-sample-price p {
+        position: absolute;
+        top: 5rem;
+        left: 25rem;
+    }
+
+    .kohai-sample-price span {
+        position: absolute;
+        top: 10rem;
+        left: 28rem;
+    }
+
+    .kohai-sample-description-container {
+        margin-top: 18rem;
+    } 
 }
 
-.add-icon {
-    width: 5rem;
-    height: 5rem;
-    position: absolute;
-    bottom: 2.3rem;
-    left: 9.5rem;
+@media (max-width: 768px) {
+    .kohai-add-btn img{
+        left: 5rem;
+        top: 1rem;
+    }
+
+    .kohai-sample-description img {
+        position: absolute;
+        top: 0rem;
+        left: -4rem;
+    }
+
+    .kohai-sample-description .kohai-link {
+        position: absolute;
+        top: 4rem;
+        left: 9rem;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .kohai-onigiri-icon1 {
+        left: -2rem;
+        top: 5rem;
+    }
+
+    .kohai-onigiri-icon2 {
+        left: 5rem;
+        top: 5rem;
+    }
+
+    .kohai-sample-price h3 {
+        left: 16rem;
+    }
+
+    .kohai-sample-price p {
+        top: 5rem;
+        left: 20rem;
+    }
+
+    .kohai-sample-price span {
+        top: 10rem;
+        left: 23rem;
+    }
+
+    .kohai-sample-description .kohai-link {
+        top: 4rem;
+        left: 9rem;
+        padding: 1rem;
+        width: 26rem;
+    }
 }

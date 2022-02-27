@@ -8,7 +8,7 @@ const Header = ({title}) => {
   return (
     <>
         
-        <header className='header row'>
+        <header className='header'>
 
             <h1 className="text-end py-2 px-5 text-uppercase">{title}</h1>
 

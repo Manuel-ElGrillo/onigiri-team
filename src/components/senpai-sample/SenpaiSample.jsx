@@ -9,42 +9,48 @@ const SenpaiSample = () => {
   return (
     <>
 
-      <div className="container">
+      <div className='d-flex flex-column mx-5 senpai-container'>
 
-        <div className="senpai-sample-container row my-5">
+        <div className='d-flex align-items-center'>
 
-          <div className="senpai-sample-icons-price">
-
-            <div className='senpai-sample-title'>
-              <h3>Combo</h3><br />
-              <p>Senpai</p>
-              <span>15$</span>
-            </div>
-
-            <div className='senpai-sample-onigiri-icons'>
-              <img src={OnigiriIcon} alt="onigiri" className='onigiri-1' />
-              <img src={OnigiriIcon} alt="onigiri" className='onigiri-2' />
-              <img src={OnigiriIcon} alt="onigiri" className='onigiri-3' />
-            </div>
-
+          <div className='senpai-onigiri-icons'>
+            <img src={OnigiriIcon}
+              alt="onigiri"
+              className='senpai-onigiri-icon1' />
+            <img src={OnigiriIcon}
+              alt="onigiri"
+              className='senpai-onigiri-icon2' />
+            <img src={OnigiriIcon}
+              alt="onigiri"
+              className='senpai-onigiri-icon3' />
           </div>
 
-          <div className='senpai-sample-description'>
+          <div className='senpai-sample-price text-end'>
+            <h3>Combo</h3>
+            <p>Senpai</p>
+            <span>15$</span>
+          </div>
 
-            <Link to={"/combo-senpai"}>
-              <p>3 Onigiris + Sopa Miso</p>
-            </Link>
-            <img src={MisoIcon} alt="Miso Soup" className='senpai-miso-icon' />
-            <Link to={"/combo-senpai"}>
-              <img src={AddIcon} alt="Add button" className='senpai-add-icon' />
-            </Link>
+        </div>
 
+        <div className='d-flex senpai-sample-description-container'>
+
+          <div className='senpai-add-btn'>
+            <img src={AddIcon} alt="Add button" />
+          </div>
+
+          <div className='senpai-sample-description d-flex align-items-end'>
+            <img src={MisoIcon} alt="Miso soup" />
+            <Link to={"/combo-senpai"}
+              className="senpai-link">
+              3 Onigiris + Sopa Miso
+            </Link>
           </div>
 
         </div>
 
       </div>
-    
+
     </>
   )
 }
